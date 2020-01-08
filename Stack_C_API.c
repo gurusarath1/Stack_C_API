@@ -79,7 +79,7 @@ STACK_DATA* stackToArray(Stack* s_ptr, int* sizeToReturn)
                 a[i++] = temp;
         }
 
-	for(int j=i-1; j>=0; j++)
+	for(int j=i-1; j>=0; j--)
 	{
 		push(s_ptr, a[j]);
 	}
